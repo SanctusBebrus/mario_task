@@ -167,7 +167,7 @@ if __name__ == '__main__':
             elif event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_ESCAPE:
                     screen.blit(pygame.image.load('data/no_escape.jpg'), (0, 0))
-                    pygame.mixer.music.set_volume(1000000)
+                    pygame.mixer.music.set_volume(100)
                     pygame.mixer.music.play(-1)
                     pygame.display.set_caption('ТЫ НЕ СМОЖЕШЬ')
 
