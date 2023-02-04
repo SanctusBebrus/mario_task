@@ -91,7 +91,7 @@ def start_screen():
                   "но внезапно оказался в Backrooms посреди каких-то левых коробок",
                   'и теперь не знает, что ему делать...',
                   'Нажмите любую клавишу чтобы помочь сбежать Лютому',
-                  '(не нажимайте escape)']
+                  '(не нажимайте escape на следующем экране)']
     background = pygame.transform.scale(load_image('fon.jpg'), SIZE)
     screen.blit(background, (0, 0))
     font = pygame.font.Font(None, 30)
